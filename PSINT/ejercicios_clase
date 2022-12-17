@@ -1,0 +1,25 @@
+ejercicio para calcular cuánto tiempo tradaríamos de leer los nombres de toda la población
+
+#algoritmo
+
+#Diagrama de flujo
+
+#pseint
+
+#pseudocódigo
+
+Algoritmo poblacion
+	Definir pobl, min, tiem, seg, horas, dias Como Real
+	Escribir "Ingrese población: "
+	leer pobl
+	seg = pobl * tiem
+	min = seg / 60
+	horas = min / 60
+	dias = horas / 24
+	anio = dias % 365
+	Escribir "segundos: ", seg
+	Escribir "min: ", min
+	Escribir "horas: ", horas
+	Escribir "dias", dias
+	Escribir "años: ", anio
+FinAlgoritmo
